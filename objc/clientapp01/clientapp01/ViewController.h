@@ -13,6 +13,6 @@
 @property (retain, nonatomic) IBOutlet UITextField *sendMessage;
 @property (retain, nonatomic) IBOutlet UIButton *sendButton;
 
-@property (retain, nonatomic) IBOutlet UIButton *sendButtonPressed;
+- (IBAction)sendButtonPressed:(id)sender;
 
 @end

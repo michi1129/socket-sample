@@ -15,6 +15,7 @@
 		D7086980155CCAB900497A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D708697F155CCAB900497A6A /* AppDelegate.m */; };
 		D7086983155CCAB900497A6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7086982155CCAB900497A6A /* ViewController.m */; };
 		D7086986155CCAB900497A6A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7086984155CCAB900497A6A /* ViewController.xib */; };
+		D70869A9155CF5DA00497A6A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70869A8155CF5DA00497A6A /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D7086981155CCAB900497A6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D7086982155CCAB900497A6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D7086985155CCAB900497A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D70869A8155CF5DA00497A6A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D70869A9155CF5DA00497A6A /* CFNetwork.framework in Frameworks */,
 				D7086970155CCAB900497A6A /* UIKit.framework in Frameworks */,
 				D7086972155CCAB900497A6A /* Foundation.framework in Frameworks */,
 				D7086974155CCAB900497A6A /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +53,7 @@
 		D7086960155CCAB900497A6A = {
 			isa = PBXGroup;
 			children = (
+				D70869A8155CF5DA00497A6A /* CFNetwork.framework */,
 				D7086975155CCAB900497A6A /* clientapp01 */,
 				D708696E155CCAB900497A6A /* Frameworks */,
 				D708696C155CCAB900497A6A /* Products */,
@@ -272,6 +276,7 @@
 				D708698B155CCAB900497A6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
