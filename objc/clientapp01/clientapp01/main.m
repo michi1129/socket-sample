@@ -2,7 +2,7 @@
 //  main.m
 //  clientapp01
 //
-//  Created by 大道　亮 on 12/05/11.
+//  Created by ro on 12/05/11.
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
